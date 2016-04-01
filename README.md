@@ -3,7 +3,7 @@
 ## Obtaining  API Keys
 You can obtain API keys by logging into the Pegke Loyalty Dashboard and navigating to [api-settings](https://dashboard.pegke.com/?q=api/apikeys) page. You will be provided with `Consumer Code` and `Consumer Secret` . With these details you can format by combining `Consumer Code` and `Consumer Secret` with a dot`.`  
 
-We will be using `CONSUMERCODE` for `Consumer Code` and `CONSUMERSECRET` for `Consumer Secret` throughout this document.
+We will be using `CONSUMERCODE` for `Consumer Code` and `CONSUMERSECRET` for `Consumer Secret` throughout this document and `APIBASE` for API Base URL
 
 ---
 
@@ -18,6 +18,7 @@ All the API calls should me made to `https://dashboard.pegke.com/apiv1/` and the
 ---
 ### Example Code
 1. [php-http-v2](/php-http-v2)
+2. [nodejs-request](/nodejs-request)
 
 
 ---
