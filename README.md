@@ -62,12 +62,8 @@ All the API calls should me made to `https://dashboard.pegke.com/apiv1/` and the
 ## 4. My offers
 **Description:** Get offers and redeemable items of a particular vendor.
 
-**URL:** `views/my_stuff&uid=UID`
+**URL:** `my_offers`
 
 **METHOD:** GET
-
-| Parameters    | Type           | Description   |
-| ------------- |-------------   | -----         |
-| uid| number  | User id of the vendor|
 
 ---
