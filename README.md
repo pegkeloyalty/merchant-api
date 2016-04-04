@@ -38,7 +38,7 @@ All the API calls should me made to `https://dashboard.pegke.com/apiv1/` and the
 ## 2. Check Points of Customer
 **Description:** Returns the points of a customer with a specific vendor
 
-**URL:** `check_points&phone=PHONE`
+**URL:** `check_points`
 
 **METHOD:** GET
 
