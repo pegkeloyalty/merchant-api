@@ -16,8 +16,7 @@ $request->setRequestMethod('GET');
 $request->setBody($body);
 
 $request->setQuery(new http\QueryString(array(
-  'q' => 'views/my_stuff',
-  'uid' => '' // vendor id
+  'q' => 'my_offers',
 )));
 
 $request->setHeaders(array(

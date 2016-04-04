@@ -2,7 +2,7 @@ var request = require("request");
 
 var options = { method: 'GET',
   url: APIBASE,
-  qs: { q: 'views/my_stuff', uid: '' },
+  qs: { q: 'my_offers' },
   headers:
    { 'cache-control': 'no-cache',
      authorization: 'Bearer CONSUMERCODE.CONSUMERSECRET',
